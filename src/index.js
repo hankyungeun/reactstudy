@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DarkOrLight from './chapter14/DarkOrLight';
 
 import Library  from './chapter03/Library';
 import Clock  from './chapter04/Clock';
@@ -19,7 +20,7 @@ import ProfileCard from './chapter13/ProfileCard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
